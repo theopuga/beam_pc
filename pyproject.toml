@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beam-pc"
+version = "0.1.0"
+description = "Computer vision pipeline for identifying devices and surfacing repair guides"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-NC-SA-3.0" }
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+vision = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "Pillow>=10",
+]
+dev = [
+    "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data artifacts (local caches, datasets, checkpoints)
+data/cache/
+data/images/
+data/dataset/
+checkpoints/
+*.pt
+*.pth
+
+# OS / editor
+Thumbs.db
+.vscode/
+.idea/
