@@ -5,14 +5,6 @@
 Learning-exercise CV repo: identify a device from a photo, then retrieve repair
 guides. Python 3.10+, src layout, package `beam_pc`.
 
-## Hard rules
-
-- **iFixit data is runtime-retrieval only.** Never write code that bulk-downloads
-  iFixit content for model training (their ToS bans it). Per-user-request fetch +
-  local cache is the pattern.
-- iFixit-derived content shown anywhere must carry attribution (CC BY-NC-SA 3.0).
-- Training images come from self-collected / permissively licensed sources only.
-
 ## Layout
 
 - `src/beam_pc/ifixit/` — API client, models, image download, `fetch` CLI

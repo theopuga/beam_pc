@@ -42,21 +42,6 @@ Run the end-to-end pipeline (once a checkpoint exists):
 python -m beam_pc.pipeline photo.jpg --checkpoint checkpoints\device_clf.pt
 ```
 
-## Data strategy
-
-The vision model trains on **self-collected / permissively licensed images only**
-(own teardown photos, community submissions, synthetic renders). See
-`src/beam_pc/data/manifest.py` for the dataset layout.
-
-## Legal notes
-
-- iFixit content is **CC BY-NC-SA 3.0**: attribution required, non-commercial use
-  only, share-alike. Anything shown to users from iFixit must credit and link them.
-- iFixit's Terms of Use **prohibit using their data to train ML/AI models**.
-  The iFixit layer here is strictly *runtime retrieval* — guides are fetched
-  per-request and cached locally, never used as training data.
-- This repo is a personal learning exercise, non-commercial by design.
-
 ## Roadmap
 
 - [x] iFixit API client with caching + rate limiting
