@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import json
+import re
 import time
 from pathlib import Path
 
@@ -47,11 +48,24 @@ class IFixitClient:
 
     # -- Endpoints ----------------------------------------------------------
 
-    def search_guides(self, query: str, limit: int = 10, offset: int = 0) -> list[GuideSummary]:
-        data = self._get(f"/search/{query}", filter="guide", limit=limit, offset=offset)
+    def search_guides(self, query: str, limit: int = 10, offset: int = 0, use_cache: bool = True) -> list[GuideSummary]:
+        # Search results are cached alongside the guide cache (in the sibling
+        # "searches" dir) so bulk runs are reproducible and re-runs stay offline.
+        cache_path: Path | None = None
+        if self.cache_dir:
+            slug = re.sub(r"[^a-z0-9]+", "_", f"{query}_{limit}_{offset}".lower()).strip("_")
+            cache_path = self.cache_dir.parent / "searches" / f"{slug}.json"
+        if use_cache and cache_path and cache_path.exists():
+            results = json.loads(cache_path.read_text(encoding="utf-8"))
+        else:
+            data = self._get(f"/search/{query}", filter="guide", limit=limit, offset=offset)
+            results = data.get("results", [])
+            if cache_path:
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(results), encoding="utf-8")
         return [
             GuideSummary.from_api(r)
-            for r in data.get("results", [])
+            for r in results
             if r.get("dataType") == "guide"
         ]
 

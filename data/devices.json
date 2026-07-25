@@ -1,0 +1,603 @@
+[
+  {
+    "label": "iphone_15",
+    "ifixit_category": "iPhone 15",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_14",
+    "ifixit_category": "iPhone 14",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_13",
+    "ifixit_category": "iPhone 13",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_12",
+    "ifixit_category": "iPhone 12",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_11",
+    "ifixit_category": "iPhone 11",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_x",
+    "ifixit_category": "iPhone X",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_8",
+    "ifixit_category": "iPhone 8",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_7",
+    "ifixit_category": "iPhone 7",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_se_2020",
+    "ifixit_category": "iPhone SE 2020",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "iphone_6s",
+    "ifixit_category": "iPhone 6s",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s23",
+    "ifixit_category": "Samsung Galaxy S23",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s22",
+    "ifixit_category": "Samsung Galaxy S22",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s21",
+    "ifixit_category": "Samsung Galaxy S21",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s20",
+    "ifixit_category": "Samsung Galaxy S20",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s10",
+    "ifixit_category": "Samsung Galaxy S10",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_s9",
+    "ifixit_category": "Samsung Galaxy S9",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_note_20",
+    "ifixit_category": "Samsung Galaxy Note 20",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_note_10",
+    "ifixit_category": "Samsung Galaxy Note 10",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "samsung_galaxy_a52",
+    "ifixit_category": "Samsung Galaxy A52",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "google_pixel_7",
+    "ifixit_category": "Google Pixel 7",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "google_pixel_6",
+    "ifixit_category": "Google Pixel 6",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "google_pixel_5",
+    "ifixit_category": "Google Pixel 5",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "google_pixel_4a",
+    "ifixit_category": "Google Pixel 4a",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "google_pixel_3a",
+    "ifixit_category": "Google Pixel 3a",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "oneplus_7",
+    "ifixit_category": "OnePlus 7",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "ipad_pro_11",
+    "ifixit_category": "iPad Pro 11",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "ipad_air_2",
+    "ifixit_category": "iPad Air 2",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "ipad_7",
+    "ifixit_category": "iPad 7",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "ipad_mini_5",
+    "ifixit_category": "iPad Mini 5",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "camera",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "macbook_pro",
+    "ifixit_category": "MacBook Pro",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "macbook_air",
+    "ifixit_category": "MacBook Air",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "thinkpad_t480",
+    "ifixit_category": "ThinkPad T480",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "thinkpad_x1_carbon",
+    "ifixit_category": "ThinkPad X1 Carbon",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "dell_xps_13",
+    "ifixit_category": "Dell XPS 13",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "dell_inspiron_15",
+    "ifixit_category": "Dell Inspiron 15",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "hp_pavilion_15",
+    "ifixit_category": "HP Pavilion 15",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "hp_elitebook_840",
+    "ifixit_category": "HP EliteBook 840",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "surface_pro_7",
+    "ifixit_category": "Surface Pro 7",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "surface_laptop_3",
+    "ifixit_category": "Surface Laptop 3",
+    "repair_types": [
+      "battery",
+      "screen",
+      "keyboard",
+      "fan",
+      "charging port"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "nintendo_switch",
+    "ifixit_category": "Nintendo Switch",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "fan",
+      "joystick"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "nintendo_switch_lite",
+    "ifixit_category": "Nintendo Switch Lite",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "fan",
+      "joystick"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "steam_deck",
+    "ifixit_category": "Steam Deck",
+    "repair_types": [
+      "battery",
+      "screen",
+      "charging port",
+      "fan",
+      "joystick"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "playstation_5",
+    "ifixit_category": "PlayStation 5",
+    "repair_types": [
+      "fan",
+      "hdmi port",
+      "power supply",
+      "disk drive",
+      "motherboard"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "playstation_4",
+    "ifixit_category": "PlayStation 4",
+    "repair_types": [
+      "fan",
+      "hdmi port",
+      "power supply",
+      "disk drive",
+      "motherboard"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "xbox_series_x",
+    "ifixit_category": "Xbox Series X",
+    "repair_types": [
+      "fan",
+      "hdmi port",
+      "power supply",
+      "disk drive",
+      "motherboard"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "xbox_one",
+    "ifixit_category": "Xbox One",
+    "repair_types": [
+      "fan",
+      "hdmi port",
+      "power supply",
+      "disk drive",
+      "motherboard"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "apple_watch_series_6",
+    "ifixit_category": "Apple Watch Series 6",
+    "repair_types": [
+      "battery",
+      "screen"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "airpods_pro",
+    "ifixit_category": "AirPods Pro",
+    "repair_types": [
+      "battery",
+      "speaker"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "imac",
+    "ifixit_category": "iMac",
+    "repair_types": [
+      "display",
+      "hard drive",
+      "fan",
+      "power supply",
+      "ram"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "kindle_paperwhite",
+    "ifixit_category": "Kindle Paperwhite",
+    "repair_types": [
+      "battery",
+      "screen"
+    ],
+    "min_photos": 30
+  },
+  {
+    "label": "bose_quietcomfort_35",
+    "ifixit_category": "Bose QuietComfort 35",
+    "repair_types": [
+      "battery",
+      "speaker",
+      "ear cushion"
+    ],
+    "min_photos": 30
+  }
+]

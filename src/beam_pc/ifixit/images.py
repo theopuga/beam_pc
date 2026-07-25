@@ -1,7 +1,11 @@
 """Download guide step images for local viewing, with caching.
 
+These images exist for one purpose: displaying guide steps alongside the
+retrieved repair instructions (UI/demo). They are NOT training data.
+
 Reminder (CC BY-NC-SA 3.0): cached images remain iFixit content — attribute
-them wherever displayed, and never feed them into a training set.
+them wherever displayed, and never feed them into a training set. Training
+images are self-collected and live only under data/dataset/.
 """
 
 from __future__ import annotations
@@ -21,7 +25,7 @@ def _image_ext(url: str) -> str:
     m = _IMG_EXT_RE.search(url)
     return "." + m.group(1).lower() if m else ".jpg"
 
-from beam_pc.config import IMAGE_DIR, ensure_dirs
+from beam_pc.config import GUIDE_IMAGES_DIR, ensure_dirs
 from beam_pc.ifixit.models import Guide
 
 
@@ -38,7 +42,7 @@ def download_guide_images(
     the resolution preference changed).
     """
     ensure_dirs()
-    dest = (dest_dir or IMAGE_DIR) / str(guide.guideid)
+    dest = (dest_dir or GUIDE_IMAGES_DIR) / str(guide.guideid)
     dest.mkdir(parents=True, exist_ok=True)
     http = session or requests.Session()
 

@@ -7,7 +7,7 @@ venv/
 
 # Data artifacts (local caches, datasets, checkpoints)
 data/cache/
-data/images/
+data/guide_images/
 data/dataset/
 checkpoints/
 *.pt
@@ -17,3 +17,5 @@ checkpoints/
 Thumbs.db
 .vscode/
 .idea/
+
+data/fetch_index.jsonl

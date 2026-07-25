@@ -95,3 +95,18 @@ def test_guide_caches_to_disk(tmp_path):
     # second call must hit cache, not network
     client.guide(145896)
     assert len(session.requests) == 1
+
+
+def test_search_caches_to_disk(tmp_path):
+    session = StubSession(SEARCH_JSON)
+    # cache_dir is the *guides* dir; searches land in the sibling "searches" dir
+    client = IFixitClient(rate_limit_s=0, cache_dir=tmp_path / "guides", session=session)
+
+    results = client.search_guides("iphone battery", limit=3)
+    assert len(session.requests) == 1
+    cached = list((tmp_path / "searches").glob("*.json"))
+    assert len(cached) == 1
+
+    # second identical call must hit cache, not network, with identical results
+    assert client.search_guides("iphone battery", limit=3) == results
+    assert len(session.requests) == 1

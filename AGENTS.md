@@ -12,8 +12,15 @@ guides. Python 3.10+, src layout, package `beam_pc`.
 - `src/beam_pc/vision/` — model/train/infer; **torch imports are lazy** so the
   core package stays light. Don't import torch at module top level.
 - `src/beam_pc/pipeline.py` — end-to-end glue
-- `data/` — gitignored caches (`cache/`, `images/`, `dataset/`)
+- `data/` — gitignored caches (`cache/`, `guide_images/`, `dataset/`)
 - `tests/` — pytest, no network access in tests
+
+## Data separation (hard rule)
+
+- `data/guide_images/` — iFixit step images, **display/demo only, never
+  training data** (CC BY-NC-SA; iFixit ToS bans ML training on their content).
+- `data/dataset/` — training images: own photos / permissively licensed only.
+- Never wire `guide_images/` into dataset/manifest/training code.
 
 ## Commands
 
